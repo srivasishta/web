@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+gitignore
+
+# Ignore large video file
+src/HomePage/trial demo reel.mp4
