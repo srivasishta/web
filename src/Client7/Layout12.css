@@ -1,0 +1,240 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  
+  
+  .image-container {
+  
+    width: 100%;
+    height: 390px;
+    
+    
+    margin-top: 360px;
+    transform: translateX(-80px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+   @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+    }
+  }
+  
+  #first-image211 {
+    position: relative;
+    transform: 
+      translateX(-215px)  
+      translateY(-500px)
+      scale(0.5);        
+    border-radius: 0;
+    width: 200%;  
+    height: 2190px;
+    object-fit: cover; 
+    
+   
+    
+    margin-bottom: 10px;
+    left: 350px;
+    cursor: pointer;
+  }
+  #second-image212 {
+    position: relative; 
+    transform: 
+      translateX(-234px) 
+      translateY(710px) 
+      scale(0.5);        
+    
+    width: 200%;  
+    height: 2190px; 
+    object-fit: cover; 
+    
+      
+    
+    margin-bottom: 240px; 
+    left: -350px;
+    border-radius: 0;
+  }
+  
+  #third-image213 {
+    position: relative; 
+    transform: 
+      translateX(137px)  
+      translateY(1169px)
+      scale(0.5);        
+    
+    width: 200%;  
+    height: 2050px;
+    object-fit: cover; 
+    border-radius: 0;
+    
+    
+    
+    margin-bottom: 10px; 
+  }
+  
+  #fourth-image214 {
+    position: relative; 
+    transform: 
+      translateX(-984px)  
+      translateY(2235px) 
+      scale(0.4);       
+    
+    width: 210%;  
+    height: 1950px; 
+    object-fit: cover; 
+    border-radius: 0;
+    
+     
+    
+    margin-bottom: 10px; 
+   
+  }
+
+  #fifth-image215{
+    position: relative; 
+    transform: 
+      translateX(390px)  
+      translateY(1465px)
+      scale(0.40);        
+    
+    width: 210%;  
+    height: 1950px;
+    object-fit: cover; 
+    
+    
+    
+    margin-bottom: 10px; 
+    border-radius: 0;
+  
+  }
+  #sixth-image216{
+    position: relative; 
+    transform: 
+      translateX(-1445px)  
+      translateY(1993px)
+      scale(0.30);        
+    
+    width: 584%;  
+    height: 2950px;
+    object-fit: cover; 
+    
+       
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    left: -500px;
+    border-radius: 0;
+  }
+
+  #seventh-image217{
+    position: relative; 
+    transform: 
+      translateX(-714px)  
+      translateY(2210px)
+      scale(0.3);        
+    
+    width: 584%;  
+    height: 2950px;
+    object-fit: cover; 
+    
+       
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    left: -500px;
+    border-radius: 0;
+  }
+  #eigth-image218{
+    position: relative; 
+    transform: 
+      translateX(-1434px)  
+      translateY(3210px)
+      scale(0.3);        
+    
+    width: 584%;  
+    height: 2950px;
+    object-fit: cover; 
+    
+       
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    left: -500px;
+    border-radius: 0;
+
+  }
+
+  .Our-Team212{
+    position: relative;
+    font-family: head;
+    top: 4850px;
+    left: 300px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+  }
+  .Our-Values213{
+    position: relative;
+    font-family: head;
+    top: 4850px;
+    left: 385px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+  }
+  .What-we-do214{
+    position: relative;
+    font-family: head;
+    top: 4850px;
+    left: 460px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    
+  }
+  .What-we-do214:hover{
+    color:#ffd900;
+  }
+  .Our-Team212:hover{
+    color: #ffd900;
+  }
+  .Our-Values213:hover{
+    color:#ffd900;
+  }
+  .Next211{
+    position: relative;
+    font-family: head;
+    color: #ffd900;
+    top: 4810px;
+    font-size: 24px;
+    left: 710px;
+  }
+  

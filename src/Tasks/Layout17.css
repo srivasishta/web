@@ -1,0 +1,423 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  
+  
+  .image-container {
+  
+    width: 100%;
+    height: 390px;
+    
+    
+    margin-top: 360px;
+    transform: translateX(-80px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+    }
+  }
+  
+  
+  
+  #first-image171 {
+    position: relative;
+    transform: 
+      translateX(-15px)  
+      translateY(-40px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2),
+      0 3px 3px rgba(0, 0, 0, 0.2);  
+    
+    margin-bottom: 10px;
+    
+  }
+  #second-image172 {
+    position: relative; 
+    transform: 
+      translateX(-10px) 
+      translateY(-40px) 
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px; 
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    
+  }
+  
+  #third-image173 {
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-400px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    
+  }
+  
+  #fourth-image174 {
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-400px) 
+      scale(0.67);       
+    
+    width: 130%;  
+    height: 580px; 
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+   
+  }
+  .project-one-title171 {
+    font-size: 24px;
+    font-family: 'head';
+    position: relative;
+    margin: 10px;
+    left: 50px;
+    top: 60px;
+    color: black;
+  }
+  
+  .project-one-subtitle171 {
+    font-size: 16px;
+    font-family: 'gb';
+    position: relative;
+    margin-top: 10px;
+    left: 60px;
+    top: 40px;
+    color: grey;
+  }
+  
+  /* Customize the others similarly */
+  .project-two-title172 {
+    font-size: 24px;
+    font-family: 'head';
+    position: relative;
+    left: 67px;
+    top: 71px;
+    color: black;
+  }
+  
+  .project-two-subtitle172 {
+    font-size: 16px;
+    font-family: 'gb';
+    position: relative;
+    top: 64px;
+    left: 69px;
+    color: grey;
+  }
+  
+  .project-three-title173 {
+    font-size: 24px;
+    position: relative;
+    font-family: 'head';
+    top: -290px;
+    right: -62px;
+    color: black;
+  }
+  
+  .project-three-subtitle173{
+    font-size: 16px;
+    position: relative;
+    font-family: 'gb';
+    top: -300px;
+    right: -62px;
+    color: grey;
+  }
+  
+  .project-four-title174 {
+    font-size: 24px;
+    font-family: 'head';
+    position: relative;
+    top: -290px;
+    right: -62px;
+    color: black;
+  }
+  
+  .project-four-subtitle174 {
+    font-size: 16px;
+    position: relative;
+    top: -300px;
+    font-family: 'gb';
+    right: -62px;
+    color: grey;
+    
+  }
+  #fifth-image175{
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-720px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    
+  
+  }
+  #sixth-image176{
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-720px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    
+  }
+  #seventh-image1777{
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-1040px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+   
+  }
+  #eigth-image178{
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-1040px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 580px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+
+  }
+  #nine-image1778{
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-1380px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 630px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+
+  }
+  #ten-image180{
+    position: relative; 
+    transform: 
+      translateX(-15px)  
+      translateY(-1380px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 630px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+
+  }
+
+  .project-six-title176{
+    position: relative;
+    top: -610px;
+    font-family: head;
+    left: 60px;
+    font-size: 24px;
+    color: black;
+  }
+  .project-five-title175{
+    position: relative;
+    top: -610px;
+    font-family: head;
+    left: 60px;
+    font-size: 24px;
+    color: black;
+  }
+  .project-five-subtitle175{
+    position: relative;
+    font-family: 'gb';
+    font-size: 16px;
+    top: -620px;
+    left: 60px;
+    color: grey;
+
+  }
+  .project-six-subtitle176{
+    position: relative;
+    font-family: 'gb';
+    font-size: 16px;
+    top: -620px;
+    left: 60px;
+    color: grey;
+
+  }
+  .project-seven-title177{
+    position: relative;
+    top: -940px;
+    font-family: head;
+    left: 60px;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .project-seven-subtitle177{
+    position: relative;
+    font-family: 'gb';
+    font-size: 16px;
+    top: -950px;
+    left: 60px;
+    color: grey;
+
+  }
+  .project-eight-title178{
+    position: relative;
+    top: -940px;
+    font-family: head;
+    left: 60px;
+    font-size: 24px;
+    color: black;
+
+  }
+  .project-eight-subtitle178{
+    position: relative;
+    font-family: 'gb';
+    font-size: 16px;
+    top: -950px;
+    left: 60px;
+    color: grey;
+
+  }
+  .project-nine-title179{
+    position: relative;
+    top: -1240px;
+    font-family: head;
+    left: 60px;
+    font-size: 24px;
+    color: black;
+
+  }
+  .project-nine-subtitle179{
+    position: relative;
+    font-family: 'gb';
+    font-size: 16px;
+    top: -1250px;
+    left: 60px;
+    color: grey;
+
+  }
+  .project-ten-title180{
+    position: relative;
+    top: -1240px;
+    font-family: head;
+    left: 60px;
+    font-size: 24px;
+    color: black;
+
+  }
+  .project-ten-subtitle180{
+    position: relative;
+    font-family: 'gb';
+    font-size: 16px;
+    top: -1250px;
+    left: 60px;
+    color: grey;
+
+  }

@@ -1,0 +1,295 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto; 
+    overflow-x: hidden;
+}
+ 
+.contact-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    
+  }
+  .title99{
+    position: relative;
+    font-family: head;
+    font-size: 95px;
+    transform: scale(1);
+    left: 450px;
+    top: -90px;
+    color: #000000;
+  }
+  .title98{
+    position: relative;
+    font-family: head;
+    font-size: 95px;
+    top: -230px;
+    left: 390px;
+    transform: scale(1);
+    color: #000;
+  }
+  .decorative-line296 {
+    width: 96px;
+    height: 1px;
+    background-color: #000000;
+    position: relative;
+    top: -176px;  
+    left: 245px;  
+    transform-origin: top center;
+    
+    transform: translateY(-40%) rotate(-39.3deg) scaleX(-4.9);
+  }
+  
+  .decorative-square296 {
+    width: 140px;
+    height: 124px;
+    background-color: #ffd900;
+    position: relative; 
+    top: -45px;
+    left: -22px;
+    transform: translateX(10%);
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.full-name-input {
+    font-family: gl;
+    border: 2px solid #000; 
+    width: 680%; 
+    max-width: 900px;
+    height: 40px; 
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(226, 225, 225);
+    position: relative;
+    left: -60px;
+    border-color: rgb(255, 255, 255);
+}
+
+.Email-input {
+  font-family: gl;
+  border: 2px solid #000; 
+  width: 680%; 
+  max-width: 900px;
+  height: 40px; 
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(226, 225, 225);
+  position: relative;
+  left: -60px;
+  top: 50px;
+  border-color: rgb(255, 255, 255);
+}
+.Contact-input {
+  font-family: gl;
+  border: 2px solid #000; 
+  width: 680%; 
+  max-width: 900px;
+  height: 40px; 
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(226, 225, 225);
+  position: relative;
+  left: -60px;
+  top: 90px;
+  border-color: rgb(255, 255, 255);
+}
+.select-input {
+  font-family: gl;
+  border: 2px solid #000; 
+  width: 680%; 
+  max-width: 900px;
+  height: 40px; 
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(226, 225, 225);
+  position: relative;
+  left: -60px;
+  top: 130px;
+  border-color: rgb(255, 255, 255);
+}
+.message-input {
+  font-family: gl;
+  border: 2px solid #000; 
+  width: 680%; 
+  max-width: 900px;
+  height: 130px; 
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(226, 225, 225);
+  position: relative;
+  left: -60px;
+  top: 170px;
+  border-color: rgb(255, 255, 255);
+
+}
+
+.submit-btn {
+  font-family: head;
+  background-color:black;
+  color: #ffd900;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 30%;
+  max-width: 200px;
+  font-weight: bold;
+  position: relative;
+  left: -430px;
+  margin-top: 200px;
+  height: 50px;
+}
+.location{
+  position: relative;
+  top: 170px;
+  width: 420px;
+  left: -310px;
+  color: #000;
+}
+.Basks{
+  position: relative;
+  font-family: head;
+  font-size: 20px;
+  color: #000;
+  top: -50px;
+  left: 5px;
+}
+
+.address{
+  position: relative;
+  max-width: 290px;
+  font-family: gd;
+  top: -75px;
+  left: 90px;
+  color: #000;
+  font-size: 20px;
+}
+#footerc{
+  background-color: black;
+  color: white;
+  padding: 40px 120px;
+  text-align: center;
+  margin-top: 200px; 
+  position: relative;
+  top: 52px;
+  height: 40px ;
+  width: 1200px;
+}
+footer .footer-linksc {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+footer .footer-linksc a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+/* Individual styling for each text */
+footer .footer-linksc .about-link {
+  font-family: gl;
+  margin-left: -710px;
+  font-size: 15px;
+}
+
+footer .footer-linksc .contact-link {
+  font-family: gl;
+  margin-left: 120px;
+  font-size: 15px;
+}
+
+footer .footer-linksc .careers-link {
+  font-family: gl;
+  margin-left: 120px;
+  font-size: 15px;
+}
+
+
+.footer-imagec {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.footer-imgc {
+  height: 40px; 
+  width: auto; 
+  margin-top: -20px; 
+ transform: translateX(718px);
+position: relative;
+top: 20px;
+
+}
+.connect-textc{
+  position: relative;
+  font-family: head;
+  font-size: 20px;
+  top: -70px;
+  left: 120px;
+
+}
+.social-iconsc{
+  display: flex;
+    justify-content: center;
+    gap: 15px; 
+    position: relative;
+  top: -70px;
+  left: 120px;
+  cursor: pointer;
+}

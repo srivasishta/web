@@ -1,0 +1,163 @@
+@font-face {
+    font-family: head;
+    src: url('./Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+}
+
+@font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+}
+
+@font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+}
+
+.Style-page {
+    width: 1280px;
+    height: 832px;
+    background: #FFFFFF;
+    padding: 40px 48px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: gl;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 213px;
+  }
+  
+  .logo1 {
+    width: 165px;
+    height: 42px;
+    position: relative;
+    left: -90px;
+    top: -10px;
+    transform: translateY(-0px); 
+     
+  }
+  
+  .menu-iconq {
+    position: relative;
+    width: 47px;
+    height: 45px;
+    cursor: pointer;
+    left: 100px;
+    top: -440px;
+    transform: translateY(430px) scale(0.8); 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: gl;
+  }
+  
+  
+  .profile-section1{
+    display: flex;
+    gap: 47px;
+    margin-bottom: 139px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-image1 {
+    position: relative;
+    width: 400px;
+    height: 355px;
+    object-fit: cover;
+    top: -109px;
+    left: 80px;
+    gap: 0px;
+    border-radius: 25px 25px 25px 25px;
+    opacity: 0px;
+    transform: scale(0.67) translate(-20px, -10px);
+
+  }
+  
+  .profile-info1 {
+    max-width: 100%;
+    width: 40vw;
+    text-align: left;
+   
+  }
+  
+  .name1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+    font-family: head;
+    transform: translateY(-100px);
+  }
+  
+  .role1 {
+    font-family: head;
+    font-size: 10px;
+    font-weight: 400;
+    color: #000000;
+    margin: 19px 0 37px;
+    transform: translateY(-120px);
+  }
+  
+  .description1{
+    font-family: gl;
+    font-size: 17px;
+    line-height: 117%;
+    color: #000000;
+    margin-left: 0px;
+    text-align: justify;
+    height: auto;
+    transform: translateY(-139px);
+ 
+  }
+  
+
+  .navigation-controls {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: -140px;
+    margin-left:309px ;
+  }
+  
+  .nav-arrow {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transform: translateY(-95px);
+  }
+  @media (max-width: 768px) {
+    .Style-page {
+      padding: 20px;
+    }
+  
+    .profile-section {
+      flex-direction: column; /* Stack elements vertically */
+    }
+  }
+ 
+  

@@ -1,0 +1,212 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  @keyframes fallFromTop {
+    0% {
+      transform: translateY(-200px) scale(0.21); /* Start slightly above */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0) scale(0.21); /* Maintain scale */
+      opacity: 1;
+    }
+  }
+  
+  .image-container {
+  
+    width: 100%;
+    height: 390px;
+    
+    
+    margin-top: 360px;
+    transform: translateX(-80px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+   @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+    }
+  }
+  
+  #first-image606 {
+   
+    position: relative;
+    transform: 
+      translateX(-565px)  
+      translateY(120px)
+      scale(0.20);        
+   
+    width: 170%;  
+    height: 2390px;
+    object-fit: cover; 
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2); 
+    
+   
+    border-radius: 190px;
+    margin-bottom: 10px;
+    left: -195px;
+    top: 430px;
+    animation: fallFromTop 8.5s ease-out forwards;
+    cursor: pointer;
+    
+    
+  }
+  #second-image706 {
+    position: relative; 
+    transform: 
+      translateX(-514px) 
+      translateY(320px) 
+      
+      scale(0.20);        
+    
+    width: 170%;  
+    height: 2390px; 
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 270px; 
+    left: -990px;
+    top: 430px;
+    animation: fallFromTop 8.5s ease-out forwards;
+    border-radius: 190px;
+  }
+  
+  #third-image806 {
+    position: relative; 
+    transform: 
+      translateX(293px)  
+      translateY(-425px)
+      scale(0.20);        
+    
+    width: 150%;  
+    height: 2380px;
+    object-fit: cover; 
+    border-radius: 190px;
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+      animation: fallFromTop 8.5s ease-out forwards;
+      top: -408px; 
+      left: 750px;
+    margin-bottom: 20px; 
+  }
+  .project-one-title1111{
+    position: relative;
+    font-family: head;
+    top: 1490px;
+    font-size: 30px;
+    color: black;
+    left: 580px;
+
+  }
+  .project-one-subtitle11{
+    position: relative;
+    font-family: head;
+    top: 1484px;
+    font-size: 20px;
+    color: grey;
+    left: 580px;
+
+  }
+  
+  .project-two-title21{
+    position: relative;
+    font-family: head;
+    top: 1490px;
+    font-size: 30px;
+    color: black;
+    left: -210px;
+  }
+  .project-two-subtitle22{
+    position: relative;
+    font-family: gb;
+    top: 1484px;
+    color: grey;
+    font-size: 20px;
+    left: -210px;
+
+  }
+  .project-two-title32{
+    position: relative;
+    font-family: head;
+    left: 1510px;
+    top: 650px;
+    color: black;
+    font-size: 30px;
+  }
+  .project-two-subtitle33{
+    position: relative;
+    font-family: gb;
+    top: 638px;
+    color: grey;
+    font-size: 20px;
+    left: 1510px;
+
+  }
+  .work-text1001{
+    position: relative;
+    top: 2240px;
+    font-family: head;
+    left: -80px;
+    font-size: 30px;
+    color: black;
+  }
+  .work-image1001{
+    position: relative;
+    top: 2255px;
+    left: -50px;
+    cursor: pointer;
+  }
+  .Our{
+    position: relative;
+    top: 2355px;
+    left: -849px;
+    font-family: head;
+    font-size: 80px;
+    color: black;
+  }
+  .Clients{
+    position: relative;
+    top: 2470px;
+    transform: scale(1.2);
+    left: -710px;
+ 
+    
+  }
+
+  
+  

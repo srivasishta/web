@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  min-width: 320px;
+  height: 60px;
+  background-color: inherit;
+}
+
+.header-content {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logop6 {
+  height: 42px;
+  object-fit: contain;
+  margin-top: 60px;
+  left: 50%;
+  transform: translateX(-360%);
+}
+
+.menu-iconl6 {
+  height: 26px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-top: 60px;
+  left: 250px;
+  transform: translateX(1630%);
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    padding: 0 10px;
+  }
+  
+  .logop6 {
+    height: -200px;
+  }
+  
+  .menu-iconl6 {
+    height: 22px;
+  }
+}
+

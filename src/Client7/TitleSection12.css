@@ -1,0 +1,235 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  .title-section1 {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: head;
+  }
+  
+  .title-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    width: 100%;
+    max-width: 840px;
+    font-family: head;
+  }
+  
+  .title3 {
+    font-family: head ;
+    font-size: 86px ;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-top: 0;  
+    padding: 0;
+    line-height: 1.2;
+  }
+  
+  .decorative-line222 {
+    width: 136px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 302px;  
+    left: -77px;  
+    transform-origin: top center;
+    
+    transform: translateY(-40%) rotate(-36deg) scaleX(-4.9);
+  }
+  
+  .decorative-square222 {
+    width: 140px;
+    height: 124px;
+    background-color: #ffd900;
+    position: absolute; 
+    top: 450px;
+    left: -32%;
+    transform: translateX(-60%);
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 64px;
+    }
+  
+    .decorative-line {
+      width: 200px;
+      top: 70px; 
+    }
+  
+    .decorative-square {
+      width: 80px;
+      height: 80px;
+      top: 180px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 48px;
+    }
+  
+    .decorative-line {
+      width: 150px;
+      top: 50px;
+    }
+  
+    .decorative-square {
+      width: 60px;
+      height: 60px;
+      top: 150px;
+    }
+  }
+  /* Parent container of the footer */
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer styles */
+  #footer10{
+    background-color: black;
+    color: white;
+    padding: 40px 120px;
+    text-align: center;
+    margin-top: 4900px; 
+    position: relative;
+    top: 20px;
+  }
+  #footer .footer-links10 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  footer .footer-links10 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* Individual styling for each text */
+  footer .footer-links10 .about-link {
+    font-family: gl;
+    margin-left: -790px;
+    font-size: 15px;
+  }
+  
+  footer .footer-links10 .contact-link {
+    font-family: gl;
+    margin-left: 120px;
+    font-size: 15px;
+  }
+  
+  footer .footer-links10 .careers-link {
+    font-family: gl;
+    margin-left: 120px;
+    font-size: 15px;
+  }
+  
+  
+  .footer-image007 {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  
+  .footer-img007 {
+    height: 40px; 
+    width: auto; 
+    margin-top: -20px; 
+   transform: translateX(788px);
+  position: relative;
+  top: 20px;
+  }
+
+  .connect-text210{
+    margin-right: 60px;
+    font-family: 'head';
+    margin-left: 52px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 5029px;
+    font-size: 20px;
+    color: black;
+  }
+  
+ 
+  
+  .social-icons210{
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-left: -52px;
+    position: relative;
+    top: 4980px;
+    cursor: pointer;
+  }
+  .work-text210{
+    font-family: head;
+    position: relative;
+    right: -1183px;
+    bottom: -4875px;
+    font-size: 20px;
+    color: black;
+  }
+  .work-image210{
+    position: relative;
+    right: -1210px;
+    bottom: -4892px;
+    cursor: pointer;
+  }
+  .content1{
+    font-family: 'lighn';
+    position: relative;
+    left: 320px;
+    width: 348px;
+  white-space: normal;
+  scale: 1.4;
+  bottom: -32px;
+  line-height: 1.3;
+  color: black;
+  
+  }
+  
+  
+  
+  
+  

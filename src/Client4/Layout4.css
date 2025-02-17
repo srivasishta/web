@@ -1,0 +1,227 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  
+  
+  .image-container {
+  
+    width: 100%;
+    height: 390px;
+    
+    
+    margin-top: 360px;
+    transform: translateX(-80px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+   @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+    }
+  }
+  
+  #first-image14 {
+    position: relative;
+    transform: 
+      translateX(-215px)  
+      translateY(-480px)
+      scale(0.5);        
+    border-radius: 0;
+    width: 200%;  
+    height: 1950px;
+    object-fit: cover; 
+    
+   
+    
+    margin-bottom: 10px;
+    left: 350px;
+    cursor: pointer;
+  }
+  #second-image24 {
+    position: relative; 
+    transform: 
+      translateX(-234px) 
+      translateY(580px) 
+      scale(0.5);        
+    
+    width: 200%;  
+    height: 1950px; 
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 240px; 
+    left: -350px;
+    border-radius: 0;
+  }
+  
+  #third-image34 {
+    position: relative; 
+    transform: 
+      translateX(137px)  
+      translateY(869px)
+      scale(0.5);        
+    
+    width: 200%;  
+    height: 1950px;
+    object-fit: cover; 
+    border-radius: 0;
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+  }
+  
+  #fourth-image44 {
+    position: relative; 
+    transform: 
+      translateX(-584px)  
+      translateY(1935px) 
+      scale(0.5);       
+    
+    width: 203%;  
+    height: 1950px; 
+    object-fit: cover; 
+    border-radius: 0;
+    
+     
+    
+    margin-bottom: 10px; 
+   
+  }
+
+  #fifth-image54{
+    position: relative; 
+    transform: 
+      translateX(140px)  
+      translateY(2230px)
+      scale(0.50);        
+    
+    width: 200%;  
+    height: 1950px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    border-radius: 0;
+  
+  }
+  #sixth-image64{
+    position: relative; 
+    transform: 
+      translateX(-90px)  
+      translateY(3293px)
+      scale(0.50);        
+    
+    width: 204%;  
+    height: 1950px;
+    object-fit: cover; 
+    
+       
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    left: -500px;
+    border-radius: 0;
+  }
+
+  #seventh-image74{
+    position: relative; 
+    transform: 
+      translateX(634px)  
+      translateY(3580px)
+      scale(0.5);        
+    
+    width: 100%;  
+    height: 1950px;
+    object-fit: cover; 
+    
+       
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    left: -500px;
+    border-radius: 0;
+  }
+
+  .Our-Team2{
+    position: relative;
+    font-family: head;
+    top: 4790px;
+    left: 380px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+  }
+  .Our-Values2{
+    position: relative;
+    font-family: head;
+    top: 4790px;
+    left: 445px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+  }
+  .What-we-do2{
+    position: relative;
+    font-family: head;
+    top: 4790px;
+    left: 510px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    
+  }
+  .What-we-do2:hover{
+    color:#ffd900;
+  }
+  .Our-Team2:hover{
+    color: #ffd900;
+  }
+  .Our-Values2:hover{
+    color:#ffd900;
+  }
+  .Next1{
+    position: relative;
+    font-family: head;
+    color:#ffd900;
+    top: 4750px;
+    font-size: 24px;
+    left: 710px;
+  }
+  

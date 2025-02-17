@@ -1,0 +1,219 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  
+  
+  .image-container {
+  
+    width: 100%;
+    height: 390px;
+    
+    
+    margin-top: 360px;
+    transform: translateX(-80px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+   @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+    }
+  }
+  
+  #first-image13 {
+    position: relative;
+    transform: 
+      translateX(-15px)  
+      translateY(180px)
+      scale(1.19);        
+    border-radius: 0;
+    width: 130%;  
+    height: 880px;
+    object-fit: cover; 
+    
+   
+    
+    margin-bottom: 10px;
+    left: 350px;
+    cursor: pointer;
+  }
+  #second-image23 {
+    position: relative; 
+    transform: 
+      translateX(-10px) 
+      translateY(1300px) 
+      scale(1.19);        
+    
+    width: 130%;  
+    height: 880px; 
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 240px; 
+    left: -370px;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  
+  #third-image33 {
+    position: relative; 
+    transform: 
+      translateX(15px)  
+      translateY(1300px)
+      scale(0.50);        
+    
+    width: 140%;  
+    height: 980px;
+    object-fit: cover; 
+    border-radius: 0;
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+  }
+  
+  #fourth-image43 {
+    position: relative; 
+    transform: 
+      translateX(-60px)  
+      translateY(1300px) 
+      scale(0.50);       
+    
+    width: 130%;  
+    height: 980px; 
+    object-fit: cover; 
+    border-radius: 0;
+    
+     
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+  }
+
+  
+  
+ 
+  
+ 
+  
+ 
+
+  #fifth-image53{
+    position: relative; 
+    transform: 
+      translateX(350px)  
+      translateY(1150px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 1490px;
+    object-fit: cover; 
+    
+    box-shadow: 
+      0 -3px 3px rgba(0, 0, 0, 0.2), 
+      0 3px 3px rgba(0, 0, 0, 0.2);   
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    border-radius: 0;
+  
+  }
+  #sixth-image63{
+    position: relative; 
+    transform: 
+      translateX(129px)  
+      translateY(2280px)
+      scale(0.67);        
+    
+    width: 130%;  
+    height: 1580px;
+    object-fit: cover; 
+    
+       
+    
+    margin-bottom: 10px; 
+    cursor: pointer;
+    left: -500px;
+    border-radius: 0;
+  }
+
+  .Our-Team1{
+    position: relative;
+    font-family: head;
+    top: 3190px;
+    left: 830px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000000;
+  }
+  .Our-Values1{
+    position: relative;
+    font-family: head;
+    top: 3190px;
+    left: 600px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000000;
+  }
+  .What-we-do1{
+    position: relative;
+    font-family: head;
+    top: 3190px;
+    left: 320px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000000;
+    
+  }
+  .What-we-do1:hover{
+    color:#ffd900;
+  }
+  .Our-Team1:hover{
+    color:#ffd900;
+  }
+  .Our-Values1:hover{
+    color:#ffd900;
+  }
+  .Next{
+    position: relative;
+    font-family: head;
+    color: #ffd900;
+    top: 3150px;
+    font-size: 24px;
+    left: 710px;
+  }
+  

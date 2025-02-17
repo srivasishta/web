@@ -1,0 +1,252 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  .title-section1 {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: head;
+  }
+  
+  .title-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    width: 100%;
+    max-width: 840px;
+    font-family: head;
+  }
+ 
+  .title3 {
+    font-family: head ;
+    font-size: 86px ;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-top: 0;  
+    padding: 0;
+    line-height: 1.2;
+    
+  }
+ 
+  
+  .decorative-line12 {
+    width: 139px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 399px;  
+    left: -120px; 
+    transform-origin: bottom center; 
+    transform-origin: top center;
+    transform: translateY(-40%) rotate(-34.2deg) scaleX(-4.9);
+   
+   
+  }
+ 
+  .decorative-square12 {
+    width: 140px;
+    height: 124px;
+    background-color: #ffd900;
+    position: absolute; 
+    top: 510px;
+    left: -32%;
+    transform: translateX(-60%);
+   
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 64px;
+    }
+  
+    .decorative-line {
+      width: 200px;
+      top: 70px; 
+    }
+  
+    .decorative-square {
+      width: 80px;
+      height: 80px;
+      top: 180px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 48px;
+    }
+  
+    .decorative-line {
+      width: 150px;
+      top: 50px;
+    }
+  
+    .decorative-square {
+      width: 60px;
+      height: 60px;
+      top: 150px;
+    }
+  }
+  /* Parent container of the footer */
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer styles */
+  #footer9{
+    background-color: black;
+    color: white;
+    padding: 40px 120px;
+    text-align: center;
+    margin-top: 3300px; 
+    position: relative;
+    top: 20px;
+  }
+  #footer .footer-links9 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  footer .footer-links9 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* Individual styling for each text */
+  footer .footer-links9 .about-link {
+    font-family: gl;
+    margin-left: -790px;
+    font-size: 15px;
+  }
+  
+  footer .footer-links9 .contact-link {
+    font-family: gl;
+    margin-left: 120px;
+    font-size: 15px;
+  }
+  
+  footer .footer-links9 .careers-link {
+    font-family: gl;
+    margin-left: 120px;
+    font-size: 15px;
+  }
+  
+  
+  .footer-image01 {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  
+  .footer-img01 {
+    height: 40px; 
+    width: auto; 
+    margin-top: -20px; 
+   transform: translateX(788px);
+  position: relative;
+  top: 20px;
+  }
+
+  .connect-text9{
+    margin-right: 60px;
+    font-family: 'head';
+    margin-left: 52px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 3425px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+ 
+  
+  .social-icons9{
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-left: -52px;
+    position: relative;
+    top: 3378px;
+    cursor: pointer;
+  }
+  .work-text9{
+    font-family: head;
+    position: relative;
+    right: -1160px;
+    bottom: -3235px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .work-image9{
+    position: relative;
+    right: -1180px;
+    bottom: -3253px;
+    cursor: pointer;
+  }
+  @keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%); /* Starts off-screen to the right */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* Ends at normal position */
+        opacity: 1;
+    }
+}
+  .content{
+    font-family: 'lighn';
+    position: relative;
+    left: 220px;
+    width: 420px;
+  white-space: normal;
+  scale: 1.4;
+  bottom: -62px;
+  line-height: 1.3;
+  color: black;
+
+ 
+  
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,414 @@
+@font-face {
+    font-family: head;
+    src: url('../Fonts/CCUpUpAndAway%20W00%20Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: lighn;
+    src: url('../Fonts/NunitoSans-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: gb;
+    src: url('../Fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: gl;
+    src: url('../Fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: gm;
+    src: url('../Fonts/Gotham-Medium_1.otf');
+  }
+  
+  
+  
+  .image-container {
+  
+    width: 100%;
+    height: 390px;
+    
+    
+    margin-top: 360px;
+    transform: translateX(-80px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex-basis: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  .project-one-title15 {
+    font-size: 84px;
+    font-family: 'head';
+    position: relative;
+    margin: 10px;
+    left: 80px;
+    top: -490px;
+    color: black;
+    max-width: 220px;
+    line-height: 0.9;
+  }
+  
+  .project-one-subtitle15 {
+    font-size: 25px;
+    font-family: 'gl';
+    position: relative;
+    margin-top: 10px;
+    left: 90px;
+    top: -480px;
+    color:black;
+    max-width: 540px; 
+    
+  }
+  
+  /* Customize the others similarly */
+  .project-two-title15 {
+    font-size: 94px;
+    font-family: 'head';
+    position: relative;
+    left: 407px;
+    top: 131px;
+    max-width: 220px;
+    color: black;
+    
+  }
+  .move-up {
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    left: -120px; /* Adjust this value as needed */
+  }
+  .project-two-subtitle15 {
+    font-size: 25px;
+    font-family: 'gl';
+    position: relative;
+    top: 74px;
+    left: 149px;
+    max-width: 509px; 
+    color:black
+  }
+  
+  .project-three-title15 {
+    font-size: 94px;
+    position: relative;
+    font-family: 'head';
+    top: -410px;
+    right: -100px;
+    color: black;
+  }
+  .sible-style {
+    display: block; 
+    top: -60px; 
+    left: -10px;
+    position: relative;
+    font-weight: bold; 
+    font-size: 95px; 
+    color: black;
+  }
+  .project-three-subtitle15{
+    font-size: 25px;
+    position: relative;
+    font-family: 'gl';
+    top: -500px;
+    right: -92px;
+    max-width: 509px; 
+    color: black
+  }
+  
+  .project-four-title15 {
+    font-size: 94px;
+    font-family: 'head';
+    position: relative;
+    top: 180px;
+    right: -432px;
+    color: black;
+  }
+  
+  .project-four-subtitle15{
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    font-family: 'gl';
+    right: -12px;
+    color: balck;
+    max-width: 509px; 
+    
+  }
+  .Intensive{
+    display: block; 
+    top: -50px; 
+    left: -190px;
+    position: relative;
+    font-weight: bold; 
+    font-size: 95px; 
+    color: black;
+
+  }
+  .stratergy{
+    position: relative;
+    font-family: head;
+    color: black;
+    top: 170px;
+    left: -60px;
+    font-size: 94px !important;
+    transform: scale(0.3); /* Adjust scale factor */
+    display: inline-block;
+  }
+  .container .stratergy {
+    font-size: 10px; /* Reduce only this specific heading */
+}
+  .stratergy-para{
+    position: relative;
+    top: 335px;
+    left: -230px;
+    max-width: 362px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    transform: scale(1.3);
+  }
+  .Creative{
+    position: relative;
+    font-family: head;
+    color: black;
+    top:320px;
+    font-size:94px;
+    left: -39px;
+    transform: scale(0.3);
+    
+
+  }
+  .creative-para{
+    position: relative;
+    top: 496px;
+    right: 190px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 355px;
+    transform: scale(1.3);
+  }
+  .Design{
+    position: relative;
+    top: 410px;
+    right: -35px;
+    font-family: head;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .design-para{
+    position: relative;
+    top: 546px;
+    right: 95px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 355px;
+    transform: scale(1.3);
+  }
+  .digital{
+    position: relative;
+    top: 590px;
+    right: -140px;
+    font-family: head;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .digital-para{
+    position: relative;
+    top: 746px;
+    right: -10px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 315px;
+    transform: scale(1.3);
+
+  }
+  .Tech{
+    position: relative;
+    top: 850px;
+    right: 1070px;
+    font-family: head;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .Tech-para{
+    position: relative;
+    top: 776px;
+    right: -195px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 395px;
+    transform: scale(1.3);
+
+
+  }
+  .Marketing1{
+    position: relative;
+    top: 1000px;
+    right: 1200px;
+    font-family: head;
+    left: -10px;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .Marketing-para{
+    position: relative;
+    top: 1146px;
+    right: 205px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 459px;
+    transform: scale(1.3);
+
+
+  }
+  .Retail{
+    position: relative;
+    top: 1060px;
+    right: 1100px;
+    font-family: head;
+    left: 35px;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .Retail-para{
+    position: relative;
+    top: 1216px;
+    right: 65px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 369px;
+    transform: scale(1.3);
+
+
+  }
+  .Production{
+    position: relative;
+    top: 1250px;
+    right: 1240px;
+    font-family: head;
+    left: 65px;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .production-para{
+    position: relative;
+    top: 1416px;
+    right: 175px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 369px;
+    transform: scale(1.3);
+
+  }
+  .Brand{
+    position: relative;
+    top: 1320px;
+    right: 1250px;
+    font-family: head;
+    left: -265px;
+   font-size: 94px;
+   color: #000;
+   transform: scale(0.3);
+
+  }
+  .Brand-para{
+    position: relative;
+    top: 1480px;
+    right: 595px;
+    font-family: lighn;
+    color: black;
+    font-size: 20px;
+    max-width: 489px;
+    transform: scale(1.3);
+
+  }
+  
+
+  
+  
+  .Our-Team496 {
+    position: relative;
+    font-family: head;
+    top: 800px;
+    left: -20px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .Our-Values396 {
+    position: relative;
+    font-family: head;
+    top: 800px;
+    left: -300px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .What-we-do666 {
+    position: relative;
+    font-family: head;
+    top: 800px;
+    left: -600px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  /* Hover effects */
+  .Our-Team496:hover {
+    color: #ffd900;
+  }
+  
+  .Our-Values396:hover {
+    color: #ffd900;
+  }
+  
+  .What-we-do666:hover {
+    color: #ffd900;
+  }
+  .project-container {
+    width: 100vw; /* Ensure full width is always used */
+    overflow-x: hidden; /* Prevents horizontal shift */
+  }
+ 
