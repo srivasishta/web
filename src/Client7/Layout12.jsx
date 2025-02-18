@@ -129,11 +129,7 @@ const Layout = () => {
             />
           </div>
           <div className="footer-image">
-            <img 
-              src="src/assets/image.png" 
-              alt="Footer Illustration" 
-              className="footer-img"
-            />
+            
           </div>
         </div>
       </footer>
