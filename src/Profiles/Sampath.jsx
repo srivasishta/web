@@ -12,8 +12,10 @@ const StylePage = ({
   return (
     <div className="Style-page">
       <header className="header">
-        <img src="src/assets/image.png" alt="Logo" className="logo1" />
+        <img src="src/assets/image.png" alt="Logo" className="logo1"onClick={() => navigate("/Layout10")} />
+        <img src="src/Profiles/x-removebg-preview.png" alt="Menu" className="menu-iconss"onClick={() => navigate("/Layout0")}  />
         <img src="src/assets/image copy.png" alt="Menu" className="menu-iconq"onClick={() => navigate("/Menu")}  />
+        
       </header>
       
       <div className="content">
@@ -25,6 +27,7 @@ const StylePage = ({
           />
           <div className="profile-info1">
             <h1 className="name1">{name}</h1>
+            
             <h2 className="role1">{role}</h2>
             <p className="description1">{description}</p>
           </div>

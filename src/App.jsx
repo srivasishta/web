@@ -44,6 +44,7 @@ const App = () => {
           <Route path="/layout7" element={<Layout7 />} /> 
           <Route path="/layout8" element={<Layout8 />} /> 
           <Route path="/layout9" element={<Layout9 />} /> 
+          <Route path="/layout10" element={<Layout10 />} /> 
           <Route path="/layout11" element={<Layout11 />} /> 
           <Route path="/layout12" element={<Layout12 />} /> 
           <Route path="/layout13" element={<Layout13 />} />

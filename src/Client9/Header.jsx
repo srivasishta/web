@@ -10,6 +10,7 @@ const Header = ({ style }) => {
           src="src/assets/image.png" 
           alt="Logo" 
           className="logop"
+          onClick={() => navigate("/Layout10")}
         />
         <img 
           src="src/assets/image copy.png" 

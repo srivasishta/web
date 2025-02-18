@@ -54,6 +54,7 @@
     left: -90px;
     top: -10px;
     transform: translateY(-0px); 
+    cursor: pointer;
      
   }
   
@@ -65,6 +66,7 @@
     left: 100px;
     top: -440px;
     transform: translateY(430px) scale(0.8); 
+   
   }
   
   .content {
@@ -160,4 +162,12 @@
     }
   }
  
-  
+  .menu-iconss{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 47px;
+    left: 540px;
+    top: 90px;
+    transform: scale(1.2);
+    cursor: pointer;
+  }

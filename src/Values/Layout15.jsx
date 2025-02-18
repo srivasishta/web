@@ -111,7 +111,7 @@ and to everyone who comes in contact with our work. We are here to enrich lives.
 
         <div className="work-links">
     <span className="work-text15">Work with us</span>
-    <img src="src/assets/right.png" alt="Work with us" className="work-image15" />
+    <img src="src/assets/right.png" alt="Work with us" className="work-image15"onClick={() => navigate("/Careers")} />
   </div>
       </footer>
 

@@ -13,7 +13,7 @@ const StylePage = ({
   return (
     <div className="Style-page">
       <header className="header">
-        <img src="src/assets/image.png" alt="Logo" className="logo1" />
+        <img src="src/assets/image.png" alt="Logo" className="logo1"onClick={() => navigate("/Layout10")} />
         <img src="src/assets/image copy.png" alt="Menu" className="menu-iconq"onClick={() => navigate("/Menu")} />
       </header>
       

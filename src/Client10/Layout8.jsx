@@ -87,7 +87,7 @@ const Layout = () => {
 
         <div className="work-links">
     <span className="work-text14">Work with us</span>
-    <img src="src/assets/right.png" alt="Work with us" className="work-image14" />
+    <img src="src/assets/right.png" alt="Work with us" className="work-image14"onClick={() => navigate("/Careers")} />
   </div>
       </footer>
 

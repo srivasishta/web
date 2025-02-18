@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <nav className="navbar">
-        <img src="src/assets/image.png" alt="Logo" className="logom" />
+        <img src="src/assets/image.png" alt="Logo" className="logom" onClick={() => navigate("/Layout10")} />
         <img src="src/assets/image copy.png" alt="Menu" className="menu-iconm" onClick={() => navigate("/menu")} />
       </nav>
 
@@ -44,7 +44,7 @@ const AboutPage = () => {
           
           <div className="work-with-us1">
             <span>Work with us</span>
-            <img src="src/assets/right.png" alt="Arrow" className="arrow-icon" />
+            <img src="src/assets/right.png" alt="Arrow" className="arrow-icon"onClick={() => navigate("/Careers")} />
           </div>
         </footer>
       </main>
