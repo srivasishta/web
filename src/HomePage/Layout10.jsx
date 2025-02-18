@@ -10,7 +10,7 @@ const Layout = () => {
       display: 'flex',
       flexDirection: 'column',
       width: '100%',
-      height: '100vh',
+      maxHeight: '100vh',
       overflowY: 'auto',
       overflowX: 'hidden',
       paddingBottom: '20px',

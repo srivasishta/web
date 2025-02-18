@@ -75,8 +75,8 @@ const Contact = () => {
         <div className="footer-containerc">
           <div className="footer-linksc">
             <a href="/about" className="about-link">About</a>
-            <a href="#work" className="contact-link">Work</a>
-            <a href="#careers" className="careers-link">Careers</a>
+            <a href="/Layout17" className="contact-link">Work</a>
+            <a href="/Careers" className="careers-link">Careers</a>
             <img 
               src="src/assets/image.png" 
               alt="Footer Illustration" 
